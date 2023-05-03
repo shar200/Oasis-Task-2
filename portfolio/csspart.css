@@ -1,0 +1,318 @@
+.nav{
+    background-color: white; 
+    z-index:9;
+    padding-left:50px;
+    padding-right:50px;
+    display:flex;
+    box-shadow:0px 3px 65px 0px rgba(0,0,0,.15);
+ }
+.nav_top{
+     position:fixed;
+     top:0;
+     left:0;
+     right:0;
+}
+.logo{
+    float:left;
+    width:60%;
+}
+.logo h1{
+    padding:10px;
+}
+.logo h1:hover{
+    color: orange;
+}
+.nav_side{
+    float:right;
+    width:40%;
+    margin-top:30px;
+}
+.nav_side a{
+    text-decoration:none;
+    margin-right:20px;
+    color:black;
+    font-weight:bold;
+    font-family:cosmic,san-serif;
+    font-size:15px;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+    text-align:center;
+}
+.nav_side a:hover{
+    color:orange;
+    transition:all 1s ease;
+}
+.team{
+    padding: 50px;
+}
+.team h2{
+    color:pink;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase; 
+}
+.team .team_container{
+    display: flex;
+    height:280%;
+}
+.team .team_container .team_video{
+    width: 40%;
+    padding: 10%;
+}
+.team .team_container .team_video img{
+    width: 90%;
+    padding-left: 0%;
+    padding-top: 16%;
+    padding-bottom:20%;
+    border: 2px solid gray;
+    border-radius: 50px;
+    outline: none;
+}
+.team .team_container .team_content{
+    width: 40%;
+    padding: 20px;
+    margin-left: 50px;
+}
+.team .team_container .team_content h1{
+    padding-top :50%;
+    padding-bottom: 5%;
+    color:rgb(16, 13, 2);
+    font-size: 30px;
+}
+.team .team_container .team_content p{
+    font-size: 20px;
+    color:rgb(10, 244, 96);
+}
+
+
+
+/* education css part8  */
+.education{
+    padding-top: 9%;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+.education .edu_logo{
+    display: flex;
+}
+.education .edu_logo i{
+    font-size: 550% !important; 
+}
+.education .edu_logo h2{
+    color: black;
+    font-size: 40px;
+    font-family:cosmic,sans-serif;
+    font-weight: bolder;
+    line-height:50px;
+    margin-bottom: 30px;
+}
+.education h2:hover{
+    border-bottom: 2px solid rgba(9, 213, 36, 0.824);
+}
+.education span{
+    color:rgba(9, 213, 67, 0.824);
+}
+.education .education_info{
+    padding-left: 3%;
+    padding-top: 5%;
+    display: flex;
+}
+.education .education_info .edu{
+    width: 33%;
+    margin: 12px;
+    box-shadow: 0px 3px 6px 0px rgba(9, 213, 77, 0.824) ;
+    padding: 2%;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+.education .education_info .edu h3{
+    font-size: 25px;
+}
+.education .education_info .edu p{
+    color:black;
+}
+.education .education_info .edu .edu_img{ 
+    display: flex;
+}
+.education .education_info .edu .edu_img i{
+    font-size: 300% !important;
+    margin-right: 3%;
+}
+.education .education_info .edu:hover{
+    box-shadow: 0px 3px 20px 0px rgba(94, 92, 94, 0.824);
+}
+/* skills css part */
+
+.skills{
+    padding-top: 10%;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+.skills h2{
+    color: black;
+    font-size: 40px;
+    font-family:cosmic,sans-serif;
+    font-weight: bolder;
+    line-height:50px;
+    margin-bottom: 50px;
+}
+.skills .skills_logo h2:hover{
+    border-bottom: 2px solid rgba(9, 213, 67, 0.824);
+}
+.skills .skills_logo{
+    display: flex;
+}
+.skills .skills_logo i{
+    margin-right: 2%;
+    font-size: 500% !important; 
+}
+.skills .skills_info{
+    display: flex;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+.skills .skills_info i{
+    font-size: 600% !important;
+}
+.skills .skills_info .sk{
+    align-content: center;
+    align-items: center;
+    padding-left: 4%;
+    padding-top: 2%;
+    width: 25%;
+    margin: 2%;
+    box-shadow: 0px 3px 6px 0px rgba(9, 213, 29, 0.824) ;
+}
+.skills .skills_info .sk:hover{
+    width: 23%;
+    box-shadow: 0px 5px 05px 05px rgba(107, 103, 107, 0.824);
+}
+.skills .skills_info .sk .sk3{
+    display: flex !important;
+}
+.skills .skills_info .sk i{
+    font-size: 400% !important;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+.skills .skills_info .sk .sk_3 img{
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+.skills .skills_info .sk_1{
+    color: orangered;
+}
+.skills .skills_info .sk_2{
+    color: blue;
+}
+
+.myworks{
+    padding-left:9% ;
+    padding-right: 9%;
+    padding-bottom:10%;
+    padding-top: 9%;
+}
+.myworks .myworks1{
+    display: flex;
+}
+.myworks .myworks1 h2{
+    color:black;
+    font-size: 40px;
+    font-family:cosmic,sans-serif;
+    font-weight: bolder;
+    line-height:50px;
+    margin-bottom: 30px;
+}
+.myworks .myworks1 i{
+    font-size: 500%;
+    padding-right: 2%;
+}
+.myworks .works{
+    display:flex;
+    padding-left:10%;
+    padding-right:10%;
+}
+.myworks .works .work1{
+   box-shadow: 0px 3px 20px 0px rgba(90, 88, 90, 0.824);
+   padding: 5%;
+}
+.myworks .works .work1 h1,p{
+    color:black;
+}
+.myworks .works .work1 img{
+        overflow: hidden;
+        width: 100%;
+}
+
+.contact{
+    padding-top: 0%;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+.contact .contact_logo{
+    display: flex;
+}
+.contact .contact_logo i{
+    font-size: 550% !important; 
+}
+.contact .contact_logo h2{
+    color: black;
+    font-size: 40px;
+    font-family:cosmic,sans-serif;
+    font-weight: bolder;
+    line-height:50px;
+    margin-bottom: 30px;
+}
+.contact h2:hover{
+    border-bottom: 2px solid rgba(9, 213, 50, 0.824);
+}
+.contact .contact_info{
+    padding-left: 3%;
+    padding-top: 5%;
+    display: flex;
+    padding-bottom: 10%;
+}
+.contact .contact_info .cont{
+    width: 33%;
+    margin: 12px;
+    box-shadow: 0px 3px 6px 0px rgba(9, 213, 9, 0.824) ;
+    padding: 2%;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+.contact .contact_info .cont h3{
+    font-size: 25px;
+}
+.contact .contact_info .cont p{
+    color:black;
+}
+.contact .contact_info .cont .cont_img{ 
+    display: flex;
+}
+.contact .contact_info .cont .cont_img i{
+    font-size: 300% !important;
+    margin-right: 3%;
+}
+.contact .contact_info .cont:hover{
+    box-shadow: 0px 3px 20px 0px rgba(94, 92, 94, 0.824);
+}
+
+.footer{
+    padding: 1%;
+    background-color:rgba(9, 213, 29, 0.824);
+    text-align: center;
+    color: white;
+}
+.footer i{
+    font-size: 300%;
+    padding: 1%;
+    color: black;
+}
+.footer h2:hover{
+    color: black;
+}
+.footer i:hover{
+    color: white;
+}
